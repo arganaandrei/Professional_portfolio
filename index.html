@@ -134,19 +134,19 @@
 									<h3>Contact Me</h3>
 									<p>Should you need to contact me, feel free to click the links above or you can send me a message using the actions below:</p>
 									<form action="https://formsubmit.co/el/yagave" method="POST">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											
-											</div>
-										</div>
+										<input type="text" name ="Name" placeholder="Full Name" required><br>
+										<input type="email" name ="Email" placeholder="Email" required><br>
+										<select name="Continent">
+											<option>Africa</option>
+											<option>Antartica</option>
+											<option>Asia</option>
+											<option>Australia</option>
+											<option>Europe</option>
+											<option>North America</option>
+											<option>South America</option>					
+										</select><br>
+										<textarea name="Message" placeholder="Message" required></textarea><br>
+										<button type="submit">Send</button>
 									</form>
 								</div>
 							</section>
